@@ -7,7 +7,6 @@
 }
 body{
     background-color: #ccc;
-    /* overflow-y: hidden; */
 }
 header{
     width: 100%;
@@ -61,7 +60,7 @@ nav a:hover {
         position: absolute;
         top: 60px;
         right: 0px;
-        height: 100%;
+        height: calc(100vh - 60px);
         width: 50vw;
         background-color: #333;
         display: none;
@@ -73,7 +72,7 @@ nav a:hover {
     nav ul{
         flex-direction: column;
         justify-content: space-around;
-        height: calc(100vh - 60px);
+        height: 100%;
     }
     .menu_mobile{
         display: block;
